@@ -4,11 +4,15 @@
     {
       "src": "api/index.py",
       "use": "@vercel/python",
-      "config": { "runtime": "python3.9" }
-    },
-    {
-      "src": "static/**",
-      "use": "@vercel/static"
+      "config": { 
+        "runtime": "python3.9",
+        "includeFiles": [
+          "templates/**",
+          "static/**",
+          "utils/**",
+          "app.py"
+        ]
+      }
     }
   ],
   "routes": [
