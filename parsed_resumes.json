@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Kamlesh Porwal",
+    "email": "porwalkamlesh5@gmail.com",
+    "phone": "+917777883214",
+    "education": [
+      {
+        "degree": "Bachelor of Technology, Computer Science & Engineering",
+        "institution": "Mahakal Institute of Technology",
+        "year": "2022-2026"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Development Intern",
+        "company": "Infosys Springboard",
+        "dates": "Jun2024-Jul2024",
+        "responsibilities": "Developed Expense Tracker and Exchange Rate Calculator using Java, handling 1000+ daily requests. Achieved 95% code coverage through comprehensive unit testing and debugging practices."
+      },
+      {
+        "title": "Frontend Development Intern",
+        "company": "Jobsense Institute",
+        "dates": "Aug2023-Sep2023",
+        "responsibilities": "Built responsive E-commerce website with 98% cross-browser compatibility using modern frameworks. Created Task Manager app improving organization efficiency by 40% with JavaScript ES6+."
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "C++",
+      "React.js",
+      "Next.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "MongoDB",
+      "MySQL",
+      "Dexie.js",
+      "Git",
+      "GitHub",
+      "AWS",
+      "VSCode",
+      "npm",
+      "Webpack",
+      "Chrome DevTools",
+      "Full Stack Development",
+      "Cloud Computing"
+    ],
+    "certifications": [
+      "Git and GitHub - Google (Coursera)",
+      "AWS Cloud Essentials",
+      "Java Programming - Infosys Springboard"
+    ],
+    "additional_sections": {},
+    "ats_score": 65,
+    "suggestions": [
+      "Highlight Python projects and skills more prominently.  Move Python higher in the 'Programming Languages' section.",
+      "Quantify Python experience with specific accomplishments in projects or previous roles. Add a dedicated section for Python projects if needed.",
+      "Tailor the resume to emphasize relevant Python libraries and frameworks used.",
+      "Add a portfolio section with links to GitHub repositories showcasing Python-based projects.",
+      "Reduce the emphasis on front-end technologies and focus more on backend and Python-specific skills for a Python Developer role."
+    ],
+    "job_role": "Python Developer"
+  },
+  {
+    "name": "Kamlesh Porwal",
+    "email": "porwalkamlesh5@gmail.com",
+    "phone": "+917777883214",
+    "education": [
+      {
+        "degree": "Bachelor of Technology, Computer Science & Engineering",
+        "institution": "Mahakal Institute of Technology",
+        "year": "2022-2026"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Development Intern",
+        "company": "Infosys Springboard",
+        "dates": "Jun2024-Jul2024",
+        "responsibilities": "Developed Expense Tracker and Exchange Rate Calculator using Java, handling 1000+ daily requests. Achieved 95% code coverage through comprehensive unit testing and debugging practices."
+      },
+      {
+        "title": "Frontend Development Intern",
+        "company": "Jobsense Institute",
+        "dates": "Aug2023-Sep2023",
+        "responsibilities": "Built responsive E-commerce website with 98% cross-browser compatibility using modern frameworks. Created Task Manager app improving organization efficiency by 40% with JavaScript ES6+."
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Java",
+      "C++",
+      "React.js",
+      "Next.js",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "MongoDB",
+      "MySQL",
+      "Dexie.js",
+      "Git",
+      "GitHub",
+      "AWS",
+      "VSCode",
+      "npm",
+      "Webpack",
+      "Chrome DevTools",
+      "AI",
+      "Full Stack Development",
+      "Cloud Computing"
+    ],
+    "certifications": [
+      "Git and GitHub - Google (Coursera)",
+      "AWS Cloud Essentials",
+      "Java Programming - Infosys Springboard"
+    ],
+    "additional_sections": {},
+    "ats_score": 85,
+    "suggestions": [
+      "Quantify accomplishments with more concrete metrics whenever possible (e.g., specific user growth, revenue increase).",
+      "Add a portfolio link directly to the resume, rather than just the Github profile.",
+      "Revise the professional summary to highlight more specific achievements and align it closely with the job description.",
+      "Use action verbs to start each responsibility description in the experience section, making them more impactful.",
+      "Consider adding a section on personal projects to showcase independent initiatives and further demonstrate full-stack capabilities."
+    ],
+    "job_role": "Full Stack Developer"
+  }
+]

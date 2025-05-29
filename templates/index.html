@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+
+{% block title %}ResumeAssist - Professional Resume Analysis{% endblock %}
+
+{% block content %}
+<!-- Mobile-optimized hero section with professional design -->
+<section class="hero-section animate-on-scroll">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">ResumeAssist – Professional Resume Analysis</h1>
+      <p class="hero-text">ResumeAssist provides professional analysis of how your resume is interpreted by Applicant Tracking Systems (ATS). Designed for job seekers at all career stages, it delivers clear, data-driven feedback to improve content, increase visibility, and enhance your application success rate. Our sophisticated system leverages advanced AI to evaluate resumes and provide personalized optimization recommendations, helping you present your professional qualifications effectively.</p>
+      <div class="hero-cta">
+        <a href="{{ url_for('upload') }}" class="btn btn-primary w-100">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          Analyze My Resume
+        </a>
+        <a href="{{ url_for('results') }}" class="btn btn-outline w-100">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          View My Results
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features section optimized for students -->
+<section class="features-section animate-on-scroll">
+  <div class="container">
+    <h2 class="section-title">How ResumeAssist Enhances Your Professional Profile</h2>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+            <path d="M10 13V8c0-1.7 1.3-3 3-3h0c1.7 0 3 1.3 3 3v5"></path>
+          </svg>
+        </div>
+        <h3 class="feature-title">Understand Your Score</h3>
+        <p class="feature-text">ResumeAssist analyzes your resume against ATS criteria and provides a comprehensive compatibility score with visual indicators. Gain valuable insights through our intuitive compatibility assessment system.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            <line x1="8" y1="11" x2="14" y2="11"></line>
+            <line x1="11" y1="8" x2="11" y2="14"></line>
+          </svg>
+        </div>
+        <h3 class="feature-title">Keyword Analysis</h3>
+        <p class="feature-text">Identify essential keywords missing from your resume. ResumeAssist pinpoints industry-specific terminology that matters for your target position and provides guidance for effective integration.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="3" y1="9" x2="21" y2="9"></line>
+            <line x1="9" y1="21" x2="9" y2="9"></line>
+            <rect x="12" y="12" width="6" height="6"></rect>
+          </svg>
+        </div>
+        <h3 class="feature-title">Resume Tailoring</h3>
+        <p class="feature-text">Learn how to tailor your resume for specific job roles. ResumeAssist offers strategic recommendations to help you emphasize relevant qualifications and experiences for your targeted positions.</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+            <line x1="12" y1="19" x2="12" y2="22"></line>
+          </svg>
+        </div>
+        <h3 class="feature-title">AI-Powered Suggestions</h3>
+        <p class="feature-text">ResumeAssist utilizes sophisticated AI technology to deliver data-driven recommendations for enhancing your resume. Receive precise feedback designed to optimize your document for improved ATS compatibility and professional presentation.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+        </div>
+        <h3 class="feature-title">Print-Friendly View</h3>
+        <p class="feature-text">Generate a polished, professional print version of your analyzed resume. Ideal for sharing with colleagues, mentors, or recruiters to demonstrate your attention to detail and strategic approach to job applications.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5"></path>
+            <path d="M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <h3 class="feature-title">Enhanced Resume Details</h3>
+        <p class="feature-text">Navigate efficiently through your parsed resume with our structured tabbed interface. Review education, experience, skills, and improvement recommendations in a methodical, organized format optimized for all devices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How it works section -->
+<section class="process-section">
+  <div class="container">
+    <h2 class="section-title">ResumeAssist Process</h2>
+    
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3 class="step-title">Document Submission</h3>
+          <p class="step-text">Upload your resume in PDF, DOCX, or TXT format and specify your target position.</p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3 class="step-title">Information Verification</h3>
+          <p class="step-text">Confirm your personal details to ensure accurate identification and parsing.</p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3 class="step-title">Comprehensive Analysis</h3>
+          <p class="step-text">Receive your ATS compatibility assessment, parsed resume data, and tailored optimization recommendations.</p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h3 class="step-title">Documentation</h3>
+          <p class="step-text">Generate a professional, print-optimized version of your analyzed resume with comprehensive improvement recommendations.</p>
+        </div>
+      </div>
+      
+      <div class="process-step">
+        <div class="step-number">5</div>
+        <div class="step-content">
+          <h3 class="step-title">Implementation & Evaluation</h3>
+          <p class="step-text">Implement strategic changes based on data-driven recommendations and evaluate different versions to assess improvement.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="d-flex justify-content-center mt-6">
+      <a href="{{ url_for('upload') }}" class="btn btn-primary">Get Started Now</a>
+    </div>
+  </div>
+</section>
+{% endblock %}
