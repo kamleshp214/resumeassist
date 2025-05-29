@@ -4,19 +4,8 @@ import json
 import tempfile
 from werkzeug.utils import secure_filename
 from utils.file_handler import process_file
+from utils.parser import parse_resume
 from utils.gemini_api import analyze_with_gemini
-
-# Import appropriate parser based on environment
-if os.environ.get('VERCEL_ENV'):
-    # Use lightweight parser on Vercel
-    from utils.simple_parser import parse_resume
-else:
-    # Use full parser with spaCy in local environment
-    try:
-        from utils.parser import parse_resume
-    except ImportError:
-        # Fallback to simple parser if import fails
-        from utils.simple_parser import parse_resume
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', os.urandom(24))
